@@ -10,9 +10,9 @@
 #                                                                              #
 # **************************************************************************** #
 
-NAME= so-long
+NAME= so_long
 SRCS = main.c
-MINILIBX = libmlx.a
+MINILIBX = mlx/libmlx.a
 OBJS = $(SRCS:.c=.o)
 CC=gcc
 RM_RF = rm -rf
